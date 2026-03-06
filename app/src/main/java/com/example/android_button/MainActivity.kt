@@ -29,9 +29,7 @@ class MainActivity : AppCompatActivity() {
             counterText.text = getString(R.string.tap_count_format, tapCount)
 
             if (tapCount % 10 == 0) {
-                val burstX = circleView.x + circleView.width / 2f
-                val burstY = circleView.y + circleView.height / 2f
-                firecrackerView.burst(burstX, burstY)
+                firecrackerView.startScreenFireworks(durationMs = 5_000L)
             }
         }
     }
