@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Random Circle Color</string>
+    <string name="tap_count_format">Tap Count: %1$d</string>
+</resources>
